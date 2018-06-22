@@ -14,6 +14,9 @@
 		0FC3F45F20DD53F900D14EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC3F45D20DD53F900D14EAA /* LaunchScreen.storyboard */; };
 		0FC3F46A20DD53F900D14EAA /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC3F46920DD53F900D14EAA /* DemoTests.swift */; };
 		0FC3F47520DD561900D14EAA /* example_5s0_hand_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0FC3F47420DD561900D14EAA /* example_5s0_hand_model.mlmodel */; };
+		0FC3F47720DD5D2600D14EAA /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC3F47620DD5D2600D14EAA /* Gesture.swift */; };
+		0FC3F47920DD5DC600D14EAA /* GPUImageGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC3F47820DD5DC600D14EAA /* GPUImageGestureRecognizer.swift */; };
+		0FC3F47B20DD5EF700D14EAA /* DispatchTime+Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC3F47A20DD5EF700D14EAA /* DispatchTime+Demo.swift */; };
 		CCBA1B42A9315D3A392B672E /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE18212B2FE7D9FBF4F68F6 /* Pods_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +42,9 @@
 		0FC3F46920DD53F900D14EAA /* DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTests.swift; sourceTree = "<group>"; };
 		0FC3F46B20DD53F900D14EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FC3F47420DD561900D14EAA /* example_5s0_hand_model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = example_5s0_hand_model.mlmodel; sourceTree = "<group>"; };
+		0FC3F47620DD5D2600D14EAA /* Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
+		0FC3F47820DD5DC600D14EAA /* GPUImageGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPUImageGestureRecognizer.swift; sourceTree = "<group>"; };
+		0FC3F47A20DD5EF700D14EAA /* DispatchTime+Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchTime+Demo.swift"; sourceTree = "<group>"; };
 		3E28F9E349AB7F4B6369174A /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		BFE18212B2FE7D9FBF4F68F6 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B5EB66C9B198C202FF3F89 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +99,9 @@
 				0FC3F45B20DD53F900D14EAA /* Assets.xcassets */,
 				0FC3F45D20DD53F900D14EAA /* LaunchScreen.storyboard */,
 				0FC3F46020DD53F900D14EAA /* Info.plist */,
+				0FC3F47620DD5D2600D14EAA /* Gesture.swift */,
+				0FC3F47820DD5DC600D14EAA /* GPUImageGestureRecognizer.swift */,
+				0FC3F47A20DD5EF700D14EAA /* DispatchTime+Demo.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -265,6 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC3F47920DD5DC600D14EAA /* GPUImageGestureRecognizer.swift in Sources */,
+				0FC3F47B20DD5EF700D14EAA /* DispatchTime+Demo.swift in Sources */,
+				0FC3F47720DD5D2600D14EAA /* Gesture.swift in Sources */,
 				0FC3F45720DD53F700D14EAA /* ViewController.swift in Sources */,
 				0FC3F45520DD53F700D14EAA /* AppDelegate.swift in Sources */,
 				0FC3F47520DD561900D14EAA /* example_5s0_hand_model.mlmodel in Sources */,
